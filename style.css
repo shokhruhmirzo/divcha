@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .div{
+    margin: 0 auto;
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: ease 0.3s;
+  }
+  
+  .buttons{
+    display: flex;
+    margin-left: 500px;
+  }
+  
+  .buttons button{
+    padding: 20px 20px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+  
+  .green{
+    background: green;
+  }
+  
+  .yellow{
+    background: yellow;
+  }
+  
+  .black{
+    background: black;
+  }
+  
+  .aqua{
+    background: aqua;
+  }
+  
+  .grey{
+    background: grey;
+  }
+  
+  .pink{
+    background: palevioletred;
+  }
+  
+  .btn-border button{
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(2, 255, 120);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .colors{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .btn-border{
+    margin-top: 100px;
+    margin-left: 370px;
+  }
+  
+  .border-radius{
+    margin-bottom: 20px;
+    margin-left: 240px;
+  }
